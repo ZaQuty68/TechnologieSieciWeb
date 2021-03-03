@@ -1,0 +1,35 @@
+$pos: fixed;
+$center: 50%;
+$border: 5px solid;
+$padding: 10%;
+$tranform: 25%;
+.A{
+    position: $pos;
+    top: $center;
+    left: $center;
+    transform: translate(-$center - $tranform, -$center - $tranform);
+
+    border: $border blue;
+    background-color: aqua;
+
+    padding-top: 0%;
+    padding-left: $padding;
+    padding-bottom: $padding;
+    padding-right: $padding;
+}
+
+.B{
+    position: $pos;
+    left: $center;
+    top: $center;
+    z-index: 10;
+    transform: translate(-$center + $tranform, -$center + $tranform);
+
+    border: $border red;
+    background-color: pink;
+
+    padding-top: 0%;
+    padding-left: $padding;
+    padding-bottom: $padding;
+    padding-right: $padding;
+}

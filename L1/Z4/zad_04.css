@@ -1,0 +1,123 @@
+header {
+  position: fixed;
+  background-color: #262626;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title-1 {
+  color: white;
+  font-size: xx-large;
+  position: relative;
+  left: 10px;
+}
+
+.title-2 {
+  color: orangered;
+  font-size: xx-large;
+  position: relative;
+  left: 10px;
+}
+
+.subtitle {
+  color: grey;
+  position: relative;
+  top: 20px;
+  left: -150px;
+}
+
+.menu {
+  position: fixed;
+  right: 10px;
+  top: 30px;
+  color: grey;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.menu a:link {
+  color: grey;
+}
+
+.menu a:hover {
+  color: grey;
+}
+
+.menu a:visited {
+  color: grey;
+}
+
+.menu a.active {
+  color: white;
+}
+
+img {
+  position: fixed;
+  padding: 15px;
+  background-color: #262626;
+  top: 50%;
+  left: 50%;
+}
+
+.valley {
+  max-width: 20%;
+  -webkit-transform: translate(-150%, -50%);
+          transform: translate(-150%, -50%);
+}
+
+.foggy {
+  max-width: 25%;
+  -webkit-transform: translate(-50%, -20%);
+          transform: translate(-50%, -20%);
+}
+
+body {
+  background-color: #404040;
+}
+
+.info {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 25px;
+  -webkit-transform: translate(0%, -300%);
+          transform: translate(0%, -300%);
+}
+
+.info-text {
+  max-width: 25%;
+  color: gray;
+  font-weight: bold;
+  -webkit-transform: translate(120%, -65%);
+          transform: translate(120%, -65%);
+  line-height: 200%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=zad_04.css.map */

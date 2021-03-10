@@ -1,0 +1,28 @@
+html, body, #outer{
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+
+.box{
+    padding: 10px 60px 100px 60px;
+    color: white;
+    font-size: xx-large;
+}
+
+#outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box:nth-child(1){
+    background-color: lightgray;
+}
+.box:nth-child(2){
+    background-color: grey;
+}
+.box:nth-child(3){
+    background-color: darkgray;
+}

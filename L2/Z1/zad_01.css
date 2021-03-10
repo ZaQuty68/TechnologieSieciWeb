@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: grey;
+  padding: 15px 0;
+}
+
+nav {
+  background-color: lightcyan;
+  padding: 15px 0;
+  margin-top: 15px;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  background-color: #b3b3ff;
+  margin: 0 15px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border-bottom: solid gray 3px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+article {
+  padding: 10px;
+  margin: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+  background-color: lightgray;
+}
+/*# sourceMappingURL=zad_01.css.map */

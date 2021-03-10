@@ -1,0 +1,29 @@
+html, body, .container{
+    height: 99%;
+}
+body{
+    margin: 10;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "nav main side"
+    "footer footer footer";
+    gap: 30px;
+}
+.container > * {
+    border: solid black 1px;
+    padding: 15px;
+}
+header{
+    grid-area: header;
+}
+footer{
+    grid-area: footer;
+}
+ul{
+    list-style-type: none;
+}

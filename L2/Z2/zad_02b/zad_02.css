@@ -1,0 +1,42 @@
+html, body, #outer {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.box {
+  padding: 10px 60px 100px 60px;
+  color: white;
+  font-size: xx-large;
+}
+
+#outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box:nth-child(1) {
+  background-color: lightgray;
+}
+
+.box:nth-child(2) {
+  background-color: grey;
+}
+
+.box:nth-child(3) {
+  background-color: darkgray;
+}
+/*# sourceMappingURL=zad_02.css.map */

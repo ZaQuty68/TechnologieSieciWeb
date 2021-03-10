@@ -1,0 +1,43 @@
+html, body, #outer {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.box {
+  padding: 10px 60px 100px 60px;
+  color: white;
+  font-size: xx-large;
+}
+
+#outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box:nth-child(1) {
+  background-color: lightgray;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.box:nth-child(2) {
+  background-color: grey;
+}
+
+.box:nth-child(3) {
+  background-color: darkgray;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+/*# sourceMappingURL=zad_02.css.map */

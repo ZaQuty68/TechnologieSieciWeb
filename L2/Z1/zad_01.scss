@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: grey;
+    padding: 15px 0;
+}
+
+nav{
+    background-color: lightcyan;
+    padding: 15px 0;
+    margin-top: 15px;
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    background-color:#b3b3ff;
+    margin: 0 15px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border-bottom: solid gray 3px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+article {
+    padding: 10px;
+    margin: 15px;
+    flex: 0 0 200px;
+    background-color: lightgray;
+}
